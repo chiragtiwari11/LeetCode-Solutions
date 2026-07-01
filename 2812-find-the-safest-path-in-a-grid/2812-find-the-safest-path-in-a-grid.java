@@ -1,61 +1,80 @@
 class Solution {
-    int[][] dir={{1,0},{-1,0},{0,1},{0,-1}};
-
     public int maximumSafenessFactor(List<List<Integer>> grid) {
-        int n=grid.size();
-        int[][] dist=new int[n][n];
+        int n = grid.size();
+        if (grid.get(0).get(0) == 1 || grid.get(n - 1).get(n - 1) == 1 || n == 1)
+            return 0;
+            
+        int arr[][] = new int[n][n];
 
-        for(int[] r:dist) Arrays.fill(r,-1);
-
-        Queue<int[]> q=new ArrayDeque<>();
-
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(grid.get(i).get(j)==1){
-                    dist[i][j]=0;
-                    q.offer(new int[]{i,j});
-                }
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                arr[i][j] = grid.get(i).get(j);
             }
         }
-
-        // Multi-source BFS
-        while(!q.isEmpty()){
-            int[] cur=q.poll();
-            for(int[] d:dir){
-                int x=cur[0]+d[0],y=cur[1]+d[1];
-                if(x>=0&&y>=0&&x<n&&y<n&&dist[x][y]==-1){
-                    dist[x][y]=dist[cur[0]][cur[1]]+1;
-                    q.offer(new int[]{x,y});
-                }
+        arr = updateMatrix(arr);
+        
+        int low = 0, high = (n - 1) * 2;
+        int mid = 0; 
+        int result = mid;
+        while(low <= high) {
+            mid = (high - low) / 2 + low;
+            if(dfs(arr,0, 0, mid, n, new boolean[n][n])) {
+                result = mid;
+                low = mid + 1;
             }
+            else high = mid - 1;
         }
-
-        // Max Heap
-        PriorityQueue<int[]> pq=new PriorityQueue<>((a,b)->b[2]-a[2]);
-        boolean[][] vis=new boolean[n][n];
-
-        pq.offer(new int[]{0,0,dist[0][0]});
-
-        while(!pq.isEmpty()){
-            int[] cur=pq.poll();
-            int x=cur[0],y=cur[1],safe=cur[2];
-
-            if(vis[x][y]) continue;
-            vis[x][y]=true;
-
-            if(x==n-1&&y==n-1) return safe;
-
-            for(int[] d:dir){
-                int nx=x+d[0],ny=y+d[1];
-                if(nx>=0&&ny>=0&&nx<n&&ny<n&&!vis[nx][ny]){
-                    pq.offer(new int[]{
-                        nx,
-                        ny,
-                        Math.min(safe,dist[nx][ny])
-                    });
-                }
-            }
-        }
-        return 0;
+        return result;
     }
+
+    public int[][] updateMatrix(int[][] matrix) {
+        int n = matrix.length;
+
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < n; col++) {
+                matrix[row][col] ^= 1;
+                if (matrix[row][col] == 1) {
+                    matrix[row][col] = Integer.MAX_VALUE / 2;
+                }
+            }
+        }
+
+        for (int row = 0; row < n; row++) {
+            for (int col = 1; col < n; col++) {
+                matrix[row][col] = Math.min(matrix[row][col], matrix[row][col - 1] + 1);
+            }
+            for (int col = n - 2; col >= 0; col--) {
+                matrix[row][col] = Math.min(matrix[row][col], matrix[row][col + 1] + 1);
+            }
+        }
+
+        for (int col = 0; col < n; col++) {
+            for (int row = 1; row < n; row++) {
+                matrix[row][col] = Math.min(matrix[row][col], matrix[row - 1][col] + 1);
+            }
+            for (int row = n - 2; row >= 0; row--) {
+                matrix[row][col] = Math.min(matrix[row][col], matrix[row + 1][col] + 1);
+            }
+        }
+
+        return matrix;
+    }
+    
+    int[] dx = {-1, 1, 0, 0};
+    int[] dy = {0, 0, 1, -1};
+    boolean dfs(int arr[][], int r, int c, int mid, int n, boolean[][] visited) {
+        if(visited[r][c] || arr[r][c] < mid) return false;
+        if(r == n - 1 && c == n - 1) return true;
+
+        visited[r][c] = true;
+        for(int i = 0; i < 4; i++) {
+            int x = r + dx[i];
+            int y = c + dy[i];
+
+            if(x == -1 || y == -1 || x == n || y == n) continue;
+            if(dfs(arr, x, y, mid, n, visited)) return true;
+        }
+        return false;
+    }
+
 }
