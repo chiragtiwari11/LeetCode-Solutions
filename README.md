@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0135-candy](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0135-candy) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0599-minimum-index-sum-of-two-lists) |
+| [0628-maximum-product-of-three-numbers](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [1260-shift-2d-grid](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1260-shift-2d-grid) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
 | [1288-remove-covered-intervals](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1288-remove-covered-intervals) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0018-4sum) |
+| [0628-maximum-product-of-three-numbers](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3312-sorted-gcd-pair-queries](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/3312-sorted-gcd-pair-queries) |
