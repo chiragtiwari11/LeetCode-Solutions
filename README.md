@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0135-candy](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0135-candy) |
+| [0169-majority-element](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0628-maximum-product-of-three-numbers](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [1260-shift-2d-grid](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1260-shift-2d-grid) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0018-4sum) |
+| [0169-majority-element](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0628-maximum-product-of-three-numbers](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1331-rank-transform-of-an-array) |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
 | [1331-rank-transform-of-an-array](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1331-rank-transform-of-an-array) |
@@ -187,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/3518-smallest-palindromic-rearrangement-ii) |
@@ -207,4 +211,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
