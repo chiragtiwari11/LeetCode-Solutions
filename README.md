@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0135-candy](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0135-candy) |
 | [0169-majority-element](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0169-majority-element) |
+| [0486-predict-the-winner](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0628-maximum-product-of-three-numbers](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [1260-shift-2d-grid](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1260-shift-2d-grid) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0486-predict-the-winner](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [1301-number-of-paths-with-max-score](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 ## Hash Table
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -215,4 +218,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0169-majority-element) |
+## Recursion
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
