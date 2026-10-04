@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0135-candy](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0135-candy) |
+| [0678-valid-parenthesis-string](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1386-cinema-seat-allocation](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1386-cinema-seat-allocation) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0115-distinct-subsequences](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0486-predict-the-winner](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
+| [0678-valid-parenthesis-string](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0877-stone-game](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1140-stone-game-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1301-number-of-paths-with-max-score) |
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0115-distinct-subsequences](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0599-minimum-index-sum-of-two-lists) |
+| [0678-valid-parenthesis-string](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -215,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0678-valid-parenthesis-string](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -376,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0678-valid-parenthesis-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
