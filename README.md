@@ -432,4 +432,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Database
+|  |
+| ------- |
+| [0183-customers-who-never-order](https://github.com/chiragtiwari11/LeetCode-Solutions/tree/master/0183-customers-who-never-order) |
 <!---LeetCode Topics End-->
